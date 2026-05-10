@@ -45,7 +45,7 @@ Un fork es tu versión personal del repositorio, donde podés experimentar sin m
 > https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
 
 > [!TIP] 
-> *Pss.. Te dejo una pista.. Buscá el botón "Fork" en la esquina superior derecha del repositorio original en GitHub.*
+> *Pss... Te dejo una pista.. Buscá el botón "Fork" en la esquina superior derecha del repositorio original en GitHub.*
 
 ---
 
@@ -90,12 +90,11 @@ Si tenés dudas sobre el formato, mirá las entradas existentes como referencia.
 
 Finalmente, si querés, podés agregar tu foto. Para ello fijate el contenido de la carpeta `img`. Intentá deducir cómo funciona.
 
-
 ---
 
 ### Etapa V — Guardá el progreso
 
-En Git, guardar cambios se llama hacer un **commit**. Un commit es como una foto del estado del proyecto en ese momento, con un mensaje que explica qué cambiaste.
+En Git, guardar cambios se llama "hacer un **commit**". Un commit es como una foto del estado del proyecto en ese momento, con un mensaje que explica qué cambiaste.
 
 Después de hacer el commit, necesitás subir esos cambios a tu fork en GitHub. Eso se llama **push**.
 
@@ -128,7 +127,7 @@ Antes de rendirte, probá con:
 
 - **La documentación oficial de Git** (hay versión en español): https://git-scm.com/book/es/v2
 - **Buscar el mensaje de error en Google**, casi siempre alguien ya lo tuvo y lo resolvió
-- **Preguntarle a alguien del equipo**.. para eso estamos :)
+- **Preguntarle a alguien del equipo**... para eso estamos :)
 
 ---
 
