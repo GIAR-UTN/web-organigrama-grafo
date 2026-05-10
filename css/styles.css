@@ -282,11 +282,11 @@ h1 em { font-style: italic; color: var(--c-amber); font-weight: 400; }
 
 .panel {
   position: absolute;
-  top: auto;
+  top: 2rem;
   right: 2rem;
   width: 300px;
   max-height: 80%;
-  overflow-y: scroll;
+  overflow-y: auto;
   background: rgba(22, 18, 16, 0.78);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
@@ -493,7 +493,7 @@ h1 em { font-style: italic; color: var(--c-amber); font-weight: 400; }
 
   /* Panel como bottom sheet */
   .panel {
-    overflow-y: scroll;
+    overflow-y: auto;
     top: auto;
     right: 0;
     bottom: 0;
