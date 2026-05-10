@@ -134,9 +134,11 @@ const nodeLayer = zoomLayer.append('g').attr('class', 'nodes');
 export const simulation = d3.forceSimulation(nodes)
   .force('link', d3.forceLink(links).id(d => d.id)
     .distance(l => {
-      if (l.kind === 'membership') return 85;
+      const s = Math.min(width, height);
+      const scale = s < 480 ? 0.5 : s < 700 ? 0.72 : 1;
+      if (l.kind === 'membership') return 85 * scale;
       const sid = l.source.id ?? l.source;
-      return sid === 'giar' ? 160 : 115;
+      return (sid === 'giar' ? 160 : 115) * scale;
     })
     .strength(l => l.kind === 'hierarchy' ? 0.8 : 0.45))
   .force('charge', d3.forceManyBody().strength(d => {

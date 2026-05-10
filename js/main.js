@@ -27,6 +27,18 @@ svg.on('click', () => {
   clearClickHighlight();
 });
 
+// Botón cerrar panel (mobile)
+document.getElementById('btn-panel-close').addEventListener('click', () => {
+  hidePanel();
+  clearClickHighlight();
+});
+
+// Texto del footer adaptado a dispositivos táctiles
+if (window.matchMedia('(pointer: coarse)').matches) {
+  document.querySelector('footer').innerHTML =
+    'toca para ver detalles <span>·</span> pellizca para zoom';
+}
+
 // Construye la leyenda lateral
 buildLegend();
 

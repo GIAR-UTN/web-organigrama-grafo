@@ -17,6 +17,7 @@ panel.addEventListener('click', e => e.stopPropagation());
 export function showPanel(d) {
   panelContent.innerHTML = _html(d);
   panel.classList.add('visible');
+  panel.scrollTop = 0;
   const photoImg = panelContent.querySelector('.panel-photo img[data-person-id]');
   if (photoImg) {
     const pid = photoImg.dataset.personId;
