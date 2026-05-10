@@ -2,7 +2,7 @@
 
 ![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FGIAR-UTN%2Fweb-organigrama-grafo&label=Visitas&icon=github&color=%23198754&message=&style=flat&tz=America%2FArgentina%2FBuenos_Aires)
 
-> [!SUCCESS]
+> [!IMPORTANT]
 > **Bienvenido al GIAR!**
 > Realizá tu primera tarea! -> [FirstQuest.md](https://github.com/GIAR-UTN/web-organigrama-grafo/blob/main/FirstQuest.md)
 

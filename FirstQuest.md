@@ -5,7 +5,7 @@
 *El salón del gremio huele a café frío y soldadura. En una pizarra llena de ecuaciones hay un post-it que dice tu nombre. Un integrante te lo señala y te dice:*
 
 
-> [!INFO]
+> [!NOTE]
 > Bienvenid@ al **GIAR**, aventurer@.
 > 
 > Antes de mandarte al frente con el código y los circuitos, tenés que completar una prueba de iniciación. No es difícil, de hecho, la resolvieron todos los que llegaron antes que vos. Pero vas a tener que aprender a manejarte con las herramientas del gremio.
@@ -136,6 +136,6 @@ Antes de rendirte, probá con:
 
 Cuando tu Pull Request sea aceptado, tu nombre va a aparecer en el organigrama del grupo.
 
->[!Success]
+>[!IMPORTANT]
 > **¡Bienvenid@ al equipo!**
 
