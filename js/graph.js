@@ -169,9 +169,15 @@ export const nodeSel = nodeLayer.selectAll('g.node')
   .attr('data-id', d => d.id)
   .call(
     d3.drag()
-      .on('start', (e, d) => { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
-      .on('drag',  (e, d) => { d.fx = e.x; d.fy = e.y; })
-      .on('end',   (e, d) => { if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; })
+      .on('start', (e, d) => { d._dragging = false; d.fx = d.x; d.fy = d.y; })
+      .on('drag',  (e, d) => {
+        if (!d._dragging) { d._dragging = true; if (!e.active) simulation.alphaTarget(0.3).restart(); }
+        d.fx = e.x; d.fy = e.y;
+      })
+      .on('end',   (e, d) => {
+        if (d._dragging) { if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; }
+        d._dragging = false;
+      })
   );
 
 // — GIAR —

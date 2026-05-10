@@ -136,7 +136,7 @@ export const DATA = {
       id: 'p6', nombre: 'Felipe', apellido: 'Nirino',
       rol: 'Electrónica',
       linkedin: null,
-      meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Ingeniero/Grado', 'Año de incorporación': '2022' },
+      meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Ingeniero/Grado', 'Año de incorporación': '2023' },
       pertenece: [{ id: 'nanosats', rol: 'Oyente' }],
     },
     {
@@ -193,7 +193,7 @@ export const DATA = {
     {
       id: 'p14', nombre: 'Francisco', apellido: 'Dominguez',
       rol: 'Electrónica',
-      linkedin: null,
+      linkedin: 'https://www.linkedin.com/in/francisco-andr%C3%A9s-dominguez-89a65826b/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Ingeniero/Grado', 'Año de incorporación': '2024' },
       pertenece: [{ id: 'payload', rol: 'Integrante' }],
     },
@@ -237,7 +237,7 @@ export const DATA = {
     {
       id: 'p20', nombre: 'Federico', apellido: 'Albero',
       rol: 'Electrónica',
-      linkedin: null,
+      linkedin: 'https://www.linkedin.com/in/albero-federico/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'HW', rol: 'Integrante' }],
     },
@@ -316,7 +316,7 @@ export const DATA = {
     {
       id: 'p31', nombre: 'Santiago Puebla', apellido: 'Paris',
       rol: 'Sistemas',
-      linkedin: null,
+      linkedin: 'www.linkedin.com/in/santiago-paris-puebla',
       meta: { 'Especialidad': 'Ing. Sistemas', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'SW', rol: 'Integrante' }],
     },
@@ -326,6 +326,27 @@ export const DATA = {
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Sistemas', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2023' },
       pertenece: [{ id: 'SW', rol: 'Integrante' }],
+    },
+    {
+      id: 'p33', nombre: 'Aylen', apellido: 'Mendiolar Colombo',
+      rol: 'Electrónica',
+      linkedin: 'https://www.linkedin.com/in/aylen-27-mc/',
+      meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
+      pertenece: [{ id: 'antartida', rol: 'Integrante' }],
+    },
+    {
+      id: 'p34', nombre: 'Matias', apellido: 'Armando Palma',
+      rol: 'Electrónica',
+      linkedin: 'http://www.linkedin.com/in/matias-armando-palma-870b2727b',
+      meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
+      pertenece: [{ id: 'antartida', rol: 'Integrante' }],
+    },
+    {
+      id: 'p35', nombre: 'Valentin Anibal', apellido: 'Dorrego',
+      rol: 'Electrónica',
+      linkedin: 'https://www.linkedin.com/in/valentin-anibal-dorrego-a881a523a/',
+      meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
+      pertenece: [{ id: 'antartida', rol: 'Integrante' }],
     },
   ],
 };
