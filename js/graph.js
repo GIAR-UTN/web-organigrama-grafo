@@ -16,6 +16,7 @@
 
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 import { DATA } from "./data.js";
+import { isTreeMode } from "./treeLayout.js";
 
 // ─── Jerarquía y estilos de roles ────────────────────────────────────────────
 
@@ -169,15 +170,9 @@ export const nodeSel = nodeLayer.selectAll('g.node')
   .attr('data-id', d => d.id)
   .call(
     d3.drag()
-      .on('start', (e, d) => { d._dragging = false; d.fx = d.x; d.fy = d.y; })
-      .on('drag',  (e, d) => {
-        if (!d._dragging) { d._dragging = true; if (!e.active) simulation.alphaTarget(0.3).restart(); }
-        d.fx = e.x; d.fy = e.y;
-      })
-      .on('end',   (e, d) => {
-        if (d._dragging) { if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; }
-        d._dragging = false;
-      })
+      .on('start', (e, d) => { if(isTreeMode()) return; if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+      .on('drag',  (e, d) => { if(isTreeMode()) return; d.fx = e.x; d.fy = e.y; })
+      .on('end',   (e, d) => { if(isTreeMode()) return; if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; })
   );
 
 // — GIAR —
