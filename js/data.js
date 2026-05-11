@@ -272,7 +272,7 @@ export const DATA = {
     {
       id: 'p25', nombre: 'Lucas', apellido: 'Sasson',
       rol: 'Electrónica',
-      linkedin: null,
+      linkedin: 'https://www.linkedin.com/in/lucas-sasson-08bb14230/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2025' },
       pertenece: [{ id: 'HW', rol: 'Integrante' }],
     },
