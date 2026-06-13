@@ -117,7 +117,7 @@ const defs = svg.append('defs');
 DATA.personas.forEach(p => {
   defs.append('clipPath')
     .attr('id', `clip-${p.id}`)
-    .append('circle').attr('r', 24);
+    .append('circle').attr('r', 23);
 });
 
 const zoomLayer = svg.append('g').attr('class', 'zoom-layer');
@@ -283,7 +283,7 @@ personSel.append('image')
   });
 
 personSel.append('circle')
-  .attr('r', 23)
+  .attr('r', 22)
   .attr('fill', 'none')
   .attr('stroke', '#000')
   .attr('stroke-opacity', 0.25)
