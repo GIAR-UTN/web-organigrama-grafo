@@ -100,12 +100,12 @@ export function applyTreeLayout() {
 
   // Ancho mínimo por hoja: evita solapamiento horizontal sin importar cuántos nodos haya
   const numLeaves = root.leaves().length;
-  const treeW = Math.max(W * 0.86, numLeaves * 68);
+  const treeW = Math.max(W * 0.100, numLeaves * 100);
   const treeH = H * 0.76;
 
   d3.tree()
     .size([treeW, treeH])
-    .separation((a, b) => a.parent === b.parent ? 1 : 1.4)
+    .separation((a, b) => a.parent === b.parent ? 1.15 : 1.4)
     (root);
 
   // Centra el árbol; si treeW > W el zoom-to-fit lo encuadrará
@@ -141,7 +141,7 @@ export function applyTreeLayout() {
         personPos.x = parentPos.x + (personPos.x >= parentPos.x ? minH : -minH);
       }
     } else if (assignment.rol === 'Lider de Sub-Proyecto' || assignment.rol === 'Lider de Proyecto') {
-      personPos.y = parentPos.y + (leafY - parentPos.y) * 0.42;
+      personPos.y = parentPos.y + (leafY - parentPos.y) * 0.82;
     }
     // Integrante y Oyente permanecen en la posición calculada por d3.tree()
   });
