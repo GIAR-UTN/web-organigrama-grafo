@@ -92,6 +92,19 @@ export const DATA = {
         },
       ],
     },
+    {
+      id:     'EspANLI-UTN',
+      nombre: 'EspANLI-UTN',
+      color:  'var(--c-steel)',
+      meta: {
+        'Título del proyecto': 'Desarrollo de evaluaciones adversariales de razonamiento para modelos de lenguaje',
+        'Tipo de proyecto': 'UTN PID EC',
+        'Código': 'BASIEC916',
+        'Categoría': 'Sistemas de Información e Informática',
+        'Año de inicio': '2026',
+        'Año de finalización': '2028',
+      },
+    },
   ],
 
   // ── Personas ───────────────────────────────────────────────────────────────
@@ -354,6 +367,13 @@ export const DATA = {
       linkedin: 'https://www.linkedin.com/in/valentin-anibal-dorrego-a881a523a/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'antartida', rol: 'Integrante' }],
+    },
+    {
+      id: 'p37', nombre: 'Joaquín', apellido: 'Toranzo Calderón',
+      rol: 'Filosofía',
+      linkedin: null,
+      meta: { 'Especialidad': 'Prof. de Filosofía', 'Nivel': 'Tesista Doctoral', 'Año de incorporación': '2013', },
+      pertenece: [{ id: 'EspANLI-UTN', rol: 'Director' },],
     },
   ],
 };
