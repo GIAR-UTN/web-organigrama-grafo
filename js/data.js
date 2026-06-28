@@ -112,6 +112,7 @@ export const DATA = {
     {
       id: 'p1', nombre: 'Matias', apellido: 'Hampel',
       rol: 'Electrónica',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'PhD', 'Año de incorporación': '2023' },
       pertenece: [{ id: 'nanosats', rol: 'Oyente' }],
@@ -119,6 +120,7 @@ export const DATA = {
     {
       id: 'p2', nombre: 'Agustin', apellido: 'Diaz Antuña',
       rol: 'Electrónica',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Ingeniero/Grado', 'Año de incorporación': '2024' },
       pertenece: [{ id: 'nanosats', rol: 'Oyente' }],
@@ -126,6 +128,7 @@ export const DATA = {
     {
       id: 'p3', nombre: 'Juan', apellido: 'Alarcón',
       rol: 'Electrónica',
+      imagen: 'p3.jpeg',
       linkedin: 'https://www.linkedin.com/in/juan-alarc%C3%B3n-aa553612a/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Ingeniero/Grado', 'Año de incorporación': '2023' },
       pertenece: [{ id: 'nanosats', rol: 'Co-Director' }],
@@ -133,6 +136,7 @@ export const DATA = {
     {
       id: 'p4', nombre: 'Lucio', apellido: 'Colautti',
       rol: 'Mecánica',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Mecánica', 'Nivel': 'Tesista Grado', 'Año de incorporación': '2025' },
       pertenece: [{ id: 'nanosats', rol: 'Oyente' }],
@@ -140,6 +144,7 @@ export const DATA = {
     {
       id: 'p5', nombre: 'Manuel Elias', apellido: 'Garcia Redondo',
       rol: 'Electrónica',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'PhD', 'Año de incorporación': '2023' },
       pertenece: [{ id: 'nanosats', rol: 'Oyente' }],
@@ -147,6 +152,7 @@ export const DATA = {
     {
       id: 'p6', nombre: 'Felipe', apellido: 'Nirino',
       rol: 'Electrónica',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Ingeniero/Grado', 'Año de incorporación': '2023' },
       pertenece: [{ id: 'nanosats', rol: 'Oyente' }],
@@ -154,6 +160,7 @@ export const DATA = {
     {
       id: 'p7', nombre: 'Joaquin', apellido: 'Cibeira',
       rol: 'Electrónica',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Tesista Grado', 'Año de incorporación': '2024' },
       pertenece: [{ id: 'nanosats', rol: 'Oyente' }],
@@ -161,6 +168,7 @@ export const DATA = {
     {
       id: 'p8', nombre: 'Uriel', apellido: 'Madias',
       rol: 'Mecánica',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Mecánica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2025' },
       pertenece: [{ id: 'concurso', rol: 'Integrante' }],
@@ -168,6 +176,7 @@ export const DATA = {
     {
       id: 'p9', nombre: 'Constanza', apellido: 'Bianco',
       rol: 'Sistemas',
+      imagen: null,
       linkedin: 'https://www.linkedin.com/in/constanza-bianco-aa5980204/',
       meta: { 'Especialidad': 'Ing. Sistemas', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'concurso', rol: 'Integrante' }],
@@ -175,6 +184,7 @@ export const DATA = {
     {
       id: 'p10', nombre: 'Ana', apellido: 'Luna Elizalde',
       rol: 'Electrónica',
+      imagen: 'p10.jpeg',
       linkedin: 'https://www.linkedin.com/in/ana-luna-elizalde',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'concurso', rol: 'Integrante' }],
@@ -182,6 +192,7 @@ export const DATA = {
     {
       id: 'p11', nombre: 'Ramiro', apellido: 'Molina Gonzalez',
       rol: 'Electrónica',
+      imagen: null,
       linkedin: 'https://www.linkedin.com/in/ramiro-molina-gonzalez-b5767432b/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'concurso', rol: 'Integrante' }],
@@ -189,6 +200,7 @@ export const DATA = {
     {
       id: 'p12', nombre: 'Jeanette Maricel', apellido: 'Molina Ramirez',
       rol: 'Industrial',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Industrial', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'concurso', rol: 'Lider de Sub-Proyecto' }],
@@ -196,6 +208,7 @@ export const DATA = {
     {
       id: 'p13', nombre: 'Juan Manuel', apellido: 'Rodríguez Aguado',
       rol: 'Electrónica',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'concurso', rol: 'Integrante' }],
@@ -203,6 +216,7 @@ export const DATA = {
     {
       id: 'p14', nombre: 'Francisco', apellido: 'Dominguez',
       rol: 'Electrónica',
+      imagen: null,
       linkedin: 'https://www.linkedin.com/in/francisco-andr%C3%A9s-dominguez-89a65826b/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Ingeniero/Grado', 'Año de incorporación': '2024' },
       pertenece: [{ id: 'payload', rol: 'Integrante' }],
@@ -210,6 +224,7 @@ export const DATA = {
     {
       id: 'p15', nombre: 'Sebastian', apellido: 'Verrastro',
       rol: 'Electrónica',
+      imagen: 'p15.jpeg',
       linkedin: 'https://www.linkedin.com/in/sebastian-verrastro/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Master', 'Año de incorporación': '2023' },
       pertenece: [{ id: 'giar', rol: 'Director' }, { id: 'nanosats', rol: 'Director' }],
@@ -217,6 +232,7 @@ export const DATA = {
     {
       id: 'p16', nombre: 'Facundo Daniel', apellido: 'Repetto',
       rol: 'Electrónica',
+      imagen: 'p16.jpeg',
       linkedin: 'https://www.linkedin.com/in/facundo-d-repetto/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Tesista Grado', 'Año de incorporación': '2025' },
       pertenece: [{ id: 'HW', rol: 'Lider de Sub-Proyecto' }],
@@ -224,6 +240,7 @@ export const DATA = {
     {
       id: 'p17', nombre: 'Alessandro', apellido: 'Ghezzo',
       rol: 'Electrónica',
+      imagen: 'p17.jpeg',
       linkedin: 'https://www.linkedin.com/in/alessandro-ghezzo/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Tesista Grado', 'Año de incorporación': '2025' },
       pertenece: [{ id: 'rf', rol: 'Lider de Sub-Proyecto' }],
@@ -231,6 +248,7 @@ export const DATA = {
     {
       id: 'p18', nombre: 'Lucas', apellido: 'Liaño',
       rol: 'Electrónica',
+      imagen: 'p18.jpg',
       linkedin: 'https://www.linkedin.com/in/lucasliano/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Tesista Grado', 'Año de incorporación': '2023' },
       pertenece: [{ id: 'nanosats', rol: 'Co-Director' }],
@@ -238,6 +256,7 @@ export const DATA = {
     {
       id: 'p19', nombre: 'Ezequiel', apellido: 'Maceda',
       rol: 'Sistemas',
+      imagen: 'p19.jpeg',
       linkedin: 'https://www.linkedin.com/in/gabriel-ezequiel-maceda/',
       meta: { 'Especialidad': 'Ing. Sistemas', 'Nivel': 'Ingeniero/Grado', 'Año de incorporación': '2025' },
       pertenece: [{ id: 'SW', rol: 'Integrante' }],
@@ -245,6 +264,7 @@ export const DATA = {
     {
       id: 'p20', nombre: 'Federico', apellido: 'Albero',
       rol: 'Electrónica',
+      imagen: 'p20.jpeg',
       linkedin: 'https://www.linkedin.com/in/albero-federico/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'HW', rol: 'Integrante' }],
@@ -252,6 +272,7 @@ export const DATA = {
     {
       id: 'p21', nombre: 'Manuel', apellido: 'Cortes',
       rol: 'Electrónica',
+      imagen: 'p21.jpeg',
       linkedin: 'https://www.linkedin.com/in/manuelcortess/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2025' },
       pertenece: [{ id: 'HW', rol: 'Integrante' }, { id: 'antartida', rol: 'Integrante' }],
@@ -259,6 +280,7 @@ export const DATA = {
     {
       id: 'p22', nombre: 'Guido', apellido: 'Cucciniello',
       rol: 'Electrónica',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'HW', rol: 'Integrante' }],
@@ -266,6 +288,7 @@ export const DATA = {
     {
       id: 'p23', nombre: 'Fausto', apellido: 'Mongini',
       rol: 'Electrónica',
+      imagen: 'p23.jpeg',
       linkedin: 'https://www.linkedin.com/in/fausto-mongini-16a716157/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2025' },
       pertenece: [{ id: 'antartida', rol: 'Lider de Sub-Proyecto' }, { id: 'HW', rol: 'Integrante' }],
@@ -273,6 +296,7 @@ export const DATA = {
     {
       id: 'p24', nombre: 'Geronimo', apellido: 'Santano',
       rol: 'Electrónica',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'HW', rol: 'Integrante' }],
@@ -280,6 +304,7 @@ export const DATA = {
     {
       id: 'p25', nombre: 'Lucas', apellido: 'Sasson',
       rol: 'Electrónica',
+      imagen: 'p25.jpeg',
       linkedin: 'https://www.linkedin.com/in/lucas-sasson-08bb14230/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2025' },
       pertenece: [{ id: 'HW', rol: 'Integrante' }],
@@ -287,6 +312,7 @@ export const DATA = {
     {
       id: 'p26', nombre: 'Nicolas', apellido: 'Trombetta',
       rol: 'Electrónica',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'HW', rol: 'Integrante' }],
@@ -294,6 +320,7 @@ export const DATA = {
     {
       id: 'p27', nombre: 'Fernando', apellido: 'Fiamberti',
       rol: 'Electrónica',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Master', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'rf', rol: 'Integrante' }],
@@ -301,6 +328,7 @@ export const DATA = {
     {
       id: 'p28', nombre: 'Francisco', apellido: 'Sthal',
       rol: 'Electrónica',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Ingeniero/Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'rf', rol: 'Integrante' }],
@@ -308,6 +336,7 @@ export const DATA = {
     {
       id: 'p29', nombre: 'Claudio', apellido: 'Grasso',
       rol: 'Otro',
+      imagen: 'p29.jpeg',
       linkedin: 'https://www.linkedin.com/in/claudio-grasso-a211116/',
       meta: { 'Especialidad': 'Otro', 'Nivel': 'Ingeniero/Grado', 'Año de incorporación': '2025' },
       pertenece: [{ id: 'SW', rol: 'Integrante' }],
@@ -315,6 +344,7 @@ export const DATA = {
     {
       id: 'p30', nombre: 'Pablo', apellido: 'Maiolo',
       rol: 'Electrónica',
+      imagen: null,
       linkedin: 'https://www.linkedin.com/in/pablo-maiolo-193622116/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Ingeniero/Grado', 'Año de incorporación': '2024' },
       pertenece: [{ id: 'SW', rol: 'Integrante' }],
@@ -322,6 +352,7 @@ export const DATA = {
     {
       id: 'p31', nombre: 'Santiago Puebla', apellido: 'Paris',
       rol: 'Sistemas',
+      imagen: 'p31.jpeg',
       linkedin: 'www.linkedin.com/in/santiago-paris-puebla',
       meta: { 'Especialidad': 'Ing. Sistemas', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'SW', rol: 'Integrante' }],
@@ -329,6 +360,7 @@ export const DATA = {
     {
       id: 'p32', nombre: 'José Antonio', apellido: 'Quispealaya',
       rol: 'Sistemas',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Sistemas', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2023' },
       pertenece: [{ id: 'SW', rol: 'Integrante' }],
@@ -336,6 +368,7 @@ export const DATA = {
     {
       id: 'p33', nombre: 'Aylen', apellido: 'Mendiolar Colombo',
       rol: 'Electrónica',
+      imagen: 'p33.jpg',
       linkedin: 'https://www.linkedin.com/in/aylen-27-mc/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'antartida', rol: 'Integrante' }],
@@ -343,6 +376,7 @@ export const DATA = {
     {
       id: 'p34', nombre: 'Matias', apellido: 'Armando Palma',
       rol: 'Electrónica',
+      imagen: 'p34.jpeg',
       linkedin: 'http://www.linkedin.com/in/matias-armando-palma-870b2727b',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'antartida', rol: 'Integrante' }],
@@ -350,6 +384,7 @@ export const DATA = {
     {
       id: 'p35', nombre: 'Valentin Anibal', apellido: 'Dorrego',
       rol: 'Electrónica',
+      imagen: 'p35.jpeg',
       linkedin: 'https://www.linkedin.com/in/valentin-anibal-dorrego-a881a523a/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'antartida', rol: 'Integrante' }],
@@ -357,6 +392,7 @@ export const DATA = {
     {
      id: 'p36', nombre: 'Delfina', apellido: 'Bianco',
       rol: 'Electrónica',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
       pertenece: [{ id: 'concurso', rol: 'Integrante' }],
@@ -364,9 +400,18 @@ export const DATA = {
     {
       id: 'p37', nombre: 'Joaquín', apellido: 'Toranzo Calderón',
       rol: 'Filosofía',
+      imagen: null,
       linkedin: null,
       meta: { 'Especialidad': 'Prof. de Filosofía', 'Nivel': 'Tesista Doctoral', 'Año de incorporación': '2013', },
       pertenece: [{ id: 'EspANLI-UTN', rol: 'Director' },],
+    },
+    {
+      id: 'p38', nombre: 'Mariano', apellido: 'Avola',
+      rol: 'Electrónica',
+      imagen: null,
+      linkedin: null,
+      meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Estudiante Grado', 'Año de incorporación': '2026' },
+      pertenece: [{ id: 'concurso', rol: 'Integrante' }],
     },
   ],
 };

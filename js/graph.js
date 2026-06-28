@@ -17,6 +17,7 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 import { DATA } from "./data.js";
 import { isTreeMode } from "./treeLayout.js";
+import { resolveImage } from "./utils.js";
 
 // ─── Jerarquía y estilos de roles ────────────────────────────────────────────
 
@@ -117,7 +118,7 @@ const defs = svg.append('defs');
 DATA.personas.forEach(p => {
   defs.append('clipPath')
     .attr('id', `clip-${p.id}`)
-    .append('circle').attr('r', 24);
+    .append('circle').attr('r', 23);
 });
 
 const zoomLayer = svg.append('g').attr('class', 'zoom-layer');
@@ -148,7 +149,10 @@ export const simulation = d3.forceSimulation(nodes)
     return -280;
   }))
   .force('center',  d3.forceCenter(width / 2, height / 2).strength(0.05))
-  .force('collide', d3.forceCollide().radius(d => d.radius + 12).strength(0.85))
+  .force('collide', d3.forceCollide().radius(d => {
+    const textExtension = d.type === 'person' ? 10 : 0;
+    return d.radius + 12 + textExtension;
+  }).strength(0.85))
   .force('x',       d3.forceX(width / 2).strength(0.03))
   .force('y',       d3.forceY(height / 2).strength(0.04));
 
@@ -263,7 +267,7 @@ personSel.append('circle')
   .attr('stroke-dasharray', d => bestRole(d.pertenece) === 'Oyente' ? '3 3' : null);
 
 personSel.append('image')
-  .attr('href', d => `img/${d.id}.jpg`)
+  .attr('href', d => resolveImage(d))
   .attr('x', -23).attr('y', -23)
   .attr('width', 46).attr('height', 46)
   .attr('clip-path', d => `url(#clip-${d.id})`)
@@ -271,19 +275,13 @@ personSel.append('image')
   .each(function(d) {
     const el = this;
     el.onerror = function() {
-      el.onerror = function() {
-        el.onerror = function() {
-          el.setAttribute('href', 'img/placeholder.png');
-          el.onerror = null;
-        };
-        el.setAttribute('href', `img/${d.id}.jpeg`);
-      };
-      el.setAttribute('href', `img/${d.id}.png`);
+      el.setAttribute('href', 'img/placeholder.png');
+      el.onerror = null;
     };
   });
 
 personSel.append('circle')
-  .attr('r', 23)
+  .attr('r', 22)
   .attr('fill', 'none')
   .attr('stroke', '#000')
   .attr('stroke-opacity', 0.25)

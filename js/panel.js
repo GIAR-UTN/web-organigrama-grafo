@@ -8,6 +8,7 @@
 
 import { DATA } from "./data.js";
 import { nodeMap } from "./graph.js";
+import { resolveImage } from "./utils.js";
 
 const panel        = document.getElementById('panel');
 const panelContent = document.getElementById('panel-content');
@@ -20,16 +21,9 @@ export function showPanel(d) {
   panel.scrollTop = 0;
   const photoImg = panelContent.querySelector('.panel-photo img[data-person-id]');
   if (photoImg) {
-    const pid = photoImg.dataset.personId;
     photoImg.onerror = function() {
-      this.onerror = function() {
-        this.onerror = function() {
-          this.src = 'img/placeholder.png';
-          this.onerror = null;
-        };
-        this.src = `img/${pid}.jpeg`;
-      };
-      this.src = `img/${pid}.png`;
+      this.src = 'img/placeholder.png';
+      this.onerror = null;
     };
   }
 }
@@ -89,7 +83,7 @@ function _personHTML(d) {
     .filter(m => m.node);
   return `
     <div class="panel-eyebrow">Integrante</div>
-    <div class="panel-photo"><img src="img/${d.id}.jpg" data-person-id="${d.id}" alt="${d.nombre} ${d.apellido}"></div>
+    <div class="panel-photo"><img src="${resolveImage(d)}" data-person-id="${d.id}" alt="${d.nombre} ${d.apellido}"></div>
     <div class="panel-name">${d.nombre} <em>${d.apellido}</em></div>
     <div class="panel-role">${d.rol || ''}</div>
     ${_metaHTML(d.meta)}
