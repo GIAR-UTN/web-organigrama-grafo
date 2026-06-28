@@ -224,7 +224,7 @@ export const DATA = {
     {
       id: 'p15', nombre: 'Sebastian', apellido: 'Verrastro',
       rol: 'Electrónica',
-      imagen: 'p15,jpeg',
+      imagen: 'p15.jpeg',
       linkedin: 'https://www.linkedin.com/in/sebastian-verrastro/',
       meta: { 'Especialidad': 'Ing. Electrónica', 'Nivel': 'Master', 'Año de incorporación': '2023' },
       pertenece: [{ id: 'giar', rol: 'Director' }, { id: 'nanosats', rol: 'Director' }],
