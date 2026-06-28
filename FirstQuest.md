@@ -80,7 +80,7 @@ Dale un nombre descriptivo a tu rama, por ejemplo: `agregar-tu-nombre`.
 
 Abrí el archivo `js/data.js`. Ahí, en el array `personas`, vas a encontrar la lista de integrantes del grupo.
 
-Tu tarea es agregarte vos. El formato de cada persona está documentado al principio del archivo. Prestá atención especialmente a:
+Tu tarea es agregarte en el final de la lista. El formato de cada persona está documentado al principio del archivo. Prestá atención especialmente a:
 
 - El campo `id` — tiene que ser único y seguir la numeración existente
 - El campo `pertenece` — indica a qué subproyecto pertenecés y con qué rol
